@@ -395,6 +395,12 @@
 		<script type="text/javascript">
 			gaming=false;
 			tombol=false;
+			function init(){
+				init_auto();
+				readMode();
+				readColor();
+				randomQuote();
+				specialEffects();}
 			baffleEffect = baffle('.note', {
 			    characters: 'supercalifragilisticexpialidocious',
 			    speed: 150
